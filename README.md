@@ -16,7 +16,7 @@ Sorry, but manual instructions at the moment...
     1. Or:
         1. Use the `"Install into hist: Repository"` option
         1. Accept the default path e.g. mine is `"/home/kevin/workspace/.metadata/.plugins/org.eclipse.pde.core/install/"`
-        1. You'll probably get a dialog informing you that you are bout to install unsigned code
+        1. You'll probably get a dialog informing you that you are about to install unsigned code
         1. Then you should get a dialog asking you if wish to restart eclipse
 
 ## Uninstallation
