@@ -10,7 +10,7 @@
             locationURI="menu:org.eclipse.jdt.ui.buildpath.menu?after=16">
             -->
          <command
-               commandId="uk.co.bampy.tools.eclipse.plugins.joinprojects"
+               commandId="uk.co.kgibbs.tools.eclipse.plugins.joinprojects"
                label="Replace jars with workspace projects"
                tooltip="Replace referenced libraries, in selected projects, with references to workspace projects"
                style="push">
@@ -32,8 +32,8 @@
    </extension>
    <extension
          point="org.eclipse.ui.commands">
-      <command id="uk.co.bampy.tools.eclipse.plugins.joinprojects"
-            defaultHandler="uk.co.bampy.tools.eclipse.plugins.joinprojects.ReplaceJarsWithProjectsHandler"
+      <command id="uk.co.kgibbs.tools.eclipse.plugins.joinprojects"
+            defaultHandler="uk.co.kgibbs.tools.eclipse.plugins.joinprojects.ReplaceJarsWithProjectsHandler"
             name="ReplaceJarsWithProjectsHandler">
       </command>
    </extension>

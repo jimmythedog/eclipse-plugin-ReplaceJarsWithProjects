@@ -1,4 +1,4 @@
-package uk.co.bampy.tools.eclipse.plugins.joinprojects;
+package uk.co.kgibbs.tools.eclipse.plugins.joinprojects;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -9,7 +9,7 @@ import org.osgi.framework.BundleContext;
 public class Activator extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "uk.co.bampy.tools.eclipse.plugins.joinprojects"; //$NON-NLS-1$
+	public static final String PLUGIN_ID = "uk.co.kgibbs.tools.eclipse.plugins.joinprojects"; //$NON-NLS-1$
 
 	// The shared instance
 	private static Activator plugin;

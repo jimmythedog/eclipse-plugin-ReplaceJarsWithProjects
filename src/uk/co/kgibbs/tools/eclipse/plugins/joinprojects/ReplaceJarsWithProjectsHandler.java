@@ -1,4 +1,4 @@
-package uk.co.bampy.tools.eclipse.plugins.joinprojects;
+package uk.co.kgibbs.tools.eclipse.plugins.joinprojects;
 
 import java.util.ArrayList;
 import java.util.Collections;

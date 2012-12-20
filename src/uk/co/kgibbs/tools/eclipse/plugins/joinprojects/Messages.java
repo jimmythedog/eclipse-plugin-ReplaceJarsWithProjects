@@ -1,10 +1,10 @@
-package uk.co.bampy.tools.eclipse.plugins.joinprojects;
+package uk.co.kgibbs.tools.eclipse.plugins.joinprojects;
 
 import org.eclipse.osgi.util.NLS;
 
 public class Messages extends NLS
 {
-    private static final String BUNDLE_NAME = "uk.co.bampy.tools.eclipse.plugins.joinprojects.messages"; //$NON-NLS-1$
+    private static final String BUNDLE_NAME = "uk.co.kgibbs.tools.eclipse.plugins.joinprojects.messages"; //$NON-NLS-1$
     public static String ReplaceJarsWithProjectsHandler_0;
     public static String ReplaceJarsWithProjectsHandler_1;
     public static String ReplaceJarsWithProjectsHandler_2;
