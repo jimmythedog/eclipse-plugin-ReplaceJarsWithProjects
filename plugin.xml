@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="popup:org.eclipse.jdt.ui.PackageExplorer">
+            <!--
+            locationURI="menu:org.eclipse.jdt.ui.buildpath.menu?after=16">
+            -->
+         <command
+               commandId="uk.co.bampy.tools.eclipse.plugins.joinprojects"
+               label="Replace jars with workspace projects"
+               tooltip="Replace referenced libraries, in selected projects, with references to workspace projects"
+               style="push">
+            <visibleWhen
+                  checkEnabled="false">
+               <with
+                     variable="activeMenuSelection">
+                  <iterate
+                        ifEmpty="false"
+                        operator="or">
+                     <adapt
+                           type="org.eclipse.jdt.core.IJavaProject">
+                     </adapt>
+                  </iterate>
+               </with>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command id="uk.co.bampy.tools.eclipse.plugins.joinprojects"
+            defaultHandler="uk.co.bampy.tools.eclipse.plugins.joinprojects.ReplaceJarsWithProjectsHandler"
+            name="ReplaceJarsWithProjectsHandler">
+      </command>
+   </extension>
+
+</plugin>
