@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Eclipse-plugin-replacejarswithprojects : An eclipse plugin that replaces referenced jars with workspace projects" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Eclipse-plugin-replacejarswithprojects</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jimmythedog/eclipse-plugin-ReplaceJarsWithProjects">View on GitHub</a>
+
+          <h1 id="project_title">Eclipse-plugin-replacejarswithprojects</h1>
+          <h2 id="project_tagline">An eclipse plugin that replaces referenced jars with workspace projects</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jimmythedog/eclipse-plugin-ReplaceJarsWithProjects/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jimmythedog/eclipse-plugin-ReplaceJarsWithProjects/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>eclipse-plugin-replacejarswithprojects</h1>
+
+<p>An eclipse plugin that replaces referenced jars with workspace projects</p>
+
+<h2>Installation</h2>
+
+<p>Sorry, but manual instructions at the moment...</p>
+
+<ol>
+<li>Import the project into eclipse</li>
+<li>Right-click on project and select <code>"Export..."</code>
+</li>
+<li>Navigate to <code>"Plug-in Development-&gt;Deployable plug-ins and fragments"</code>
+</li>
+<li>Click on <code>"Next"</code>
+</li>
+<li>You now have a couple of ways to install the plugin:
+
+<ol>
+<li>Either:
+
+<ol>
+<li>Use the <code>"Archive file"</code> option</li>
+<li>Once you've created the archive, unzip it into your <code>eclipse</code> directory and restart eclipse</li>
+</ol>
+</li>
+<li>Or:
+
+<ol>
+<li>Use the <code>"Install into hist: Repository"</code> option</li>
+<li>Accept the default path e.g. mine is <code>"/home/kevin/workspace/.metadata/.plugins/org.eclipse.pde.core/install/"</code>
+</li>
+<li>You'll probably get a dialog informing you that you are about to install unsigned code</li>
+<li>Then you should get a dialog asking you if wish to restart eclipse</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol><h2>Uninstallation</h2>
+
+<ol>
+<li>Shutdown eclipse</li>
+<li>Delete the plugin from the <code>eclipse/plugins</code> directory</li>
+<li>Restart eclipse</li>
+<li>If the plugin does not uninstall, restart eclipse - this time specifying the <code>-clean</code> command line argument to eclipse</li>
+</ol><h2>User Instructions</h2>
+
+<p>In the eclipse Package Explorer window:</p>
+
+<ol>
+<li>Select the project(s) containing the jars you want replacing - Tip: I usually select all projects by entering <code>Ctrl-A</code>
+</li>
+<li>Right-click to display the pop-up menu</li>
+<li>Left-click on the <code>"Replace jars with workspace projects"</code> pop-up menu entry</li>
+<li>Once the jars have been replaced (or not), a dialog window should appear to inform you what actions were taken. Note: the dialog title is incorrect (displays <code>"Problem Occurred"</code>) - <a href="https://github.com/jimmythedog/eclipse-plugin-ReplaceJarsWithProjects/issues/1">this issue has been logged</a>
+</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Eclipse-plugin-replacejarswithprojects maintained by <a href="https://github.com/jimmythedog">jimmythedog</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
