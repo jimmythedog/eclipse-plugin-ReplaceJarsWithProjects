@@ -118,7 +118,7 @@ public class ReplaceJarsWithProjectsHandler extends AbstractHandler
                 final IStructuredSelection selection = (IStructuredSelection) activePage.getSelection();
                 if (selection != null)
                 {
-                    final Iterator selectedElements = selection.iterator();
+                    final Iterator<?> selectedElements = selection.iterator();
                     while (selectedElements.hasNext())
                     {
                         Object element = selectedElements.next();
